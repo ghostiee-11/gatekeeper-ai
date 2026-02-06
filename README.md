@@ -4,7 +4,7 @@
 
 Gatekeeper AI is an immersive prompt engineering challenge where you must pass 5 levels of increasingly difficult AI "Gatekeepers". Each level requires a specific strategy, testing your ability to reason, persuade, and understand LLM behavior.
 
-Try it out on : [text](https://gatekeeper-ai.vercel.app/)
+Try it out on : [Gatekeeper-ai](https://gatekeeper-ai.vercel.app/)
 
 
 ## Features
