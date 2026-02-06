@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Gatekeeper AI
+
+**Prove Your Worth.**
+
+Gatekeeper AI is an immersive prompt engineering challenge where you must pass 5 levels of increasingly difficult AI "Gatekeepers". Each level requires a specific strategy, testing your ability to reason, persuade, and understand LLM behavior.
+
+Try it out on : [text](https://gatekeeper-ai.vercel.app/)
+
+
+## Features
+
+- **5 Unique Levels**: From simple politeness to deep philosophical reasoning.
+- **Multi-Provider Support**: Bring your own key for **OpenAI**, **Google Gemini**, or **Groq**.
+- **Immersive UI**: built with Framer Motion animations, glassmorphism effects, and a responsive dark mode design.
+- **Real-time Feedback**: The Gatekeepers react to your inputs with specific personalities and rejection reasons.
+
+## Tech Stack
+
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Directory)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js 18+ installed.
+- An API key for one of the supported providers (OpenAI, Gemini, or Groq).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/gatekeeper-ai.git
+    cd gatekeeper-ai
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2.  Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## Learn More
+3.  Run the development server:
+    ```bash
+    npm run dev
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+4.  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To play the game, you need to configure an API key.
+1. Click the **Settings** icon (gear) in the top right corner.
+2. Select your preferred provider (OpenAI, Gemini, or Groq).
+3. Paste your API key.
+4. Click **Save Configuration**.
 
-## Deploy on Vercel
+Your API key is stored locally in your browser and is never sent to any server other than the LLM provider directly.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## The Levels
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1.  **The Grumpy Gatekeeper**: He hates everything. Manners matter more than you think.
+2.  **The Trickster Detector**: No jailbreaks allowed. Intent must be clear and specific.
+3.  **The Reasoner**: It's not about *what* you want, but *why* you want it.
+4.  **The Socratic Void**: Don't ask for fish; ask how to fish.
+5.  **The Omniscient Silence**: The final boss. Understand the nature of the Gatekeeper to pass.
+
+## License
+
+MIT
